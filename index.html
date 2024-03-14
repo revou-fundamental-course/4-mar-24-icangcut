@@ -9,21 +9,17 @@
 <body>
   <div id="calculator">
     <h2>BMI Calculator</h2>
-    <b>Gender:</b>
+    <label for="gender">Gender:</label>
     <select id="gender">
       <option value="male">Male</option>
       <option value="female">Female</option>
     </select>
-    <br>
-    <b>Weight (kg):</b>
+    <label for="weight">Weight (kg):</label>
     <input type="number" id="weight" placeholder="Enter weight in kg">
-    <br>
-    <b>Height (cm):</b>
+    <label for="height">Height (cm):</label>
     <input type="number" id="height" placeholder="Enter height in cm">
-    <br>
-    <b>Age:</b>
+    <label for="age">Age:</label>
     <input type="number" id="age" placeholder="Enter your age">
-    <br>
     <button onclick="calculateBMI()">Calculate BMI</button>
     <div id="result"></div>
     <table id="bmiTable" style="display: none;"></table>
